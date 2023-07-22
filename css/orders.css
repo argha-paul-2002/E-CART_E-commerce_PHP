@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+}
+body{
+    max-width: 1350px;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.underlined {
+    position: relative;
+    margin-right: rem;
+  }
+  .underlined:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    border: solid 2px #cb1829;
+    border-color: #cb1829 transparent transparent transparent;
+    border-radius: 50%;
+  }
+
+.flex {
+    display: flex;
+}
+
+table {
+    width: 80%;
+    table-layout: fixed;
+    margin: auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+}
+.heading-txt{
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+th {
+    padding: 20;
+    font-size: 20;
+
+}
+
+td {
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+.bottom {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.demo-img {
+    width: 40px;
+    padding: 0 20 0 0;
+}
+
+.right-sec-text {
+    top: 36%;
+    position: relative;
+}
+
+td a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+td a:hover {
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.strike-txt {
+    color: rgb(104, 104, 104);
+    padding: 0 10 0 0;
+}
+
+.delete-btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.delete-btn:hover {
+    background-color: rgb(226, 138, 138);
+    border-radius: 50%;
+}
+
+.cart-btn {
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #66c96b;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin: 0 0 0 20;
+}
+
+.cart-btn:hover {
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.order-empty {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 1366px;
+    /* position: absolute; */
+    z-index: -1;
+    text-align: center;
+    display: none;
+}
+
+.order-empty-img {
+    text-align: center;
+}
+
+.order-em-img {
+    width: 60%;
+}
+
+.order-empty-button {
+    padding: 12 30;
+    margin: 10px 0 0 0;
+    border: 1px solid #777777;
+    /* background-color: #6ed971; */
+    background-image: linear-gradient(to right, #6ed971 , white);
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+.order-em-head h1{
+    margin: 15px 0 0 0;
+    color: #ff6e6e;
+}
+
+
+/* MODAL CSS*********************************************** */
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    line-height: 3rem;
+    /* text-align: center; */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .outer{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    overflow: hidden;
+    background-color: #b1b1b1;
+    border-radius: 15px;
+    transition: 0.2s ease;
+    margin-bottom: 10px;
+  }
+  .outer:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(255, 98, 98, 0.23) 0px 3px 6px;
+    cursor: pointer;
+  }
+  .flex{
+    display: flex;
+  }
+  .inner{
+    width: 25%;
+    /* height: 71px; */
+    /* top: 50%; */
+    padding: 30px 0 9px 0;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #eee;
+    font-size: 18px;
+  }
+  .inner-btn{
+    width: 15%;
+    padding: 30px 0 9px 0;
+  }
+  .amount{
+    color: #28772c;
+  }

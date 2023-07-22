@@ -1,0 +1,454 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    max-width: 1350px;
+    margin: auto;
+}
+
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+*.btn {
+    cursor: pointer;
+}
+
+/* *********************************************************** */
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.big-font {
+    font-size: 18px;
+}
+
+.fade-color {
+    color: #777777;
+}
+
+.body-main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* height: 500px; */
+    max-width: 1350px;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.path {
+    padding: 15 20 10 15;
+}
+
+/* LEFT SECTION START**************************************************************************** */
+.left-all-sec {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-top: none;
+    width: 250px;
+    white-space: nowrap;
+    /* height: 400px; */
+    /* padding: 0 10 0 15;
+}
+.sticky{
+    /* position: sticky;
+    top: 0px; */
+}
+
+.filter-sec {
+    justify-content: space-between;
+    padding: 15 15 0px 15;
+}
+
+.hr-line {
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin-top: 20px;
+    background-color: #e8e8e8;
+}
+
+.heading {
+    font-size: 15px;
+    padding: 15px 15px;
+}
+
+.clear-filter {
+    font-weight: 700;
+    color: #ff3f6c;
+    font-size: 14px;
+}
+
+/* CHECKBOX CSS ***************************************************************************** */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #5e5e5e;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    /* background-color: #2196F3; */
+    background-color: #4e3baa;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checks {
+    padding: 0 0 0 15;
+}
+
+/* CHECKBOX CSS ENDS ***************************************************************************** */
+.color-round {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.color-txt {
+    padding: 0 0 0 10px;
+}
+
+#show-more,
+#show-less {
+    cursor: pointer;
+    /* color: #e6c225; */
+}
+
+.round-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.round-checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.round-checkmark {
+    /* background-color: #2196F3; */
+    background-color: #4e3baa;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.round-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.round-checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .round-checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* RIGHT SECTION ALL STARTS*********************************************************************************************** */
+.right-all-sec {
+    width: 1100px;
+    background-color: #ffffff;
+}
+
+/* DROP DOWN SORT OPTION************************************************************************ */
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 252px;
+    padding: 10px 0 10px 15px;
+    font-size: 15px;
+    border: 1px solid #c5c5c5;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 6;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: 1px solid #c5c5c5;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    right: 12px;
+    position: relative;
+}
+
+/*PRODUCT AREA ******************************************************************************************* */
+.outer {
+    width: 100%;
+    /* height: 100%; */
+    background-color: #ffffff;
+    text-transform: capitalize;
+}
+
+.product-outer {
+    display: flex;
+    /* height: 100%; */
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+.product-sec {
+    width: 25%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    margin: 0 0 12px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-s {
+    width: 95%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pro-img {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+
+
+.pro {
+    width: 100%;
+    height: 246px;
+    object-fit: contain;
+    transition: transform .2s;
+}
+
+.pro:hover {
+    transform: scale(1.2);
+}
+
+a {
+    cursor: pointer;
+}
+
+/* WISH LIST-ICON********************************************************* */
+.wish-list {
+    position: absolute;
+    z-index: 5;
+}
+
+.heart {
+    width: 60px;
+    height: 60px;
+    background: url(../images/icons/heart.png) no-repeat;
+    background-position: -23px -28px;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    transition-duration: 0s;
+}
+
+.heart.is-active {
+    transition-duration: 1s;
+    background-position: -2824px -28px;
+}
+
+.price-margin {
+    margin: 0 5 0 0;
+}
+
+.disc-color {
+    color: #388e3c;
+}
+
+.amt-font {
+    font-size: 15px;
+}
+
+.pro-desc {
+    padding: 10 0 0 15;
+}
+
+.details-padding {
+    padding: 0 0 10 0;
+}
+
+.product-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/*EMPTY CART **************************************************************** */
+
+.cart-empty {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 1366px;
+    /* position: absolute; */
+    z-index: -1;
+    text-align: center;
+    display: none;
+}
+
+.main-c {
+    z-index: 5;
+}
+
+.empty-img {
+    text-align: center;
+}
+
+.em-img {
+    width: 60%;
+}
+
+.empty-button {
+    padding: 12 30;
+    margin: 10px 0 0 0;
+    border: 1px solid #777777;
+    /* background-color: #6ed971; */
+    background-image: linear-gradient(to right, #ff6e6e , white);
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+.em-head h1{
+    margin: 15px 0 0 0;
+    color: #ff6e6e;
+}
+
+.dropdown-content label{
+   margin-top: 15px;
+}
+.p-type{
+    font-size: 18px;
+    margin: 10px 0px 15px 0px;
+    text-transform: capitalize;
+}
+
+
+   

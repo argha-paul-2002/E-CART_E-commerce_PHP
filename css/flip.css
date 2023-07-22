@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+._full-outer{
+    margin: 0 auto;
+    max-width: 1366px;
+    min-width: 1128px;
+}
+div {
+    display: block;
+}
+.fonts-loaded body, .fonts-loaded button, .fonts-loaded input, .fonts-loaded select, .fonts-loaded textarea {
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+body, button, input, select, textarea {
+    font-family: Arial,sans-serif;
+    letter-spacing: -.2px;
+}
+body {
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+}
+._full-outer .content {
+    margin: 0 auto;
+    position: relative;
+    padding: 14px 64px 0;
+}
+.col, .row {
+    width: 100%;
+}
+
+.row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+._full-outer .left-sec-full {
+    width: 25%;
+}
+
+.option-content {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+.option-margin {
+    margin-bottom: 16px;
+}
+.padding-lower {
+    padding: 16px;
+    font-size: 12px;
+}
+.profile {
+    padding: 12px;
+    margin-bottom: 16px;
+}
+.profile-img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+a, img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.pro-info {
+    padding: 5px 0 0 16px;
+    width: calc(100% - 50px);
+}
+.pro-info .pro-hello {
+    font-size: 12px;
+}
+.pro-info .user-name {
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.option-padding-bottom {
+    padding-bottom: 12px;
+}
+.option-padding {
+    padding: 20px 12px 5px 24px;
+}
+.icon-images {
+    width: 20px;
+    height: 20px;
+}
+.heading-txt {
+    width: calc(100% - 26px);
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+    cursor: pointer;
+}
+.arrow-symbol {
+    margin-top: 1px;
+    float: right;
+}
+.arrow-symbol-s {
+    width: 14px;
+    height: 14px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.hr-line {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.heading-two {
+    padding: 0 0 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+}
+.sub-heading-txt {
+    font-size: 14px;
+    padding: 12px 5px 12px 66px;
+    cursor: pointer;
+}

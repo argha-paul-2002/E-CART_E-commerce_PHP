@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+body{
+    max-width: 1350px;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+table {
+    width: 80%;
+    table-layout: fixed;
+    margin: auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+}
+.heading-txt{
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+th {
+    padding: 20;
+    font-size: 20;
+
+}
+
+td {
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+.bottom {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.demo-img {
+    width: 40px;
+    padding: 0 20 0 0;
+}
+
+.right-sec-text {
+    top: 8%;
+    font-size: 15px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+td a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+td a:hover {
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.strike-txt {
+    color: rgb(104, 104, 104);
+    padding: 0 10 0 0;
+}
+
+.delete-btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.delete-btn:hover {
+    background-color: rgb(226, 138, 138);
+    border-radius: 50%;
+}
+
+.cart-btn {
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #66c96b;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin: 0 0 0 20;
+}
+
+.cart-btn:hover {
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.wish-empty {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 1366px;
+    /* position: absolute; */
+    z-index: -1;
+    text-align: center;
+    display: none;
+}
+
+.wish-empty-img {
+    text-align: center;
+}
+
+.wish-em-img {
+    width: 60%;
+}
+
+.wish-empty-button {
+    padding: 12 30;
+    margin: 10px 0 0 0;
+    border: 1px solid #777777;
+    /* background-color: #6ed971; */
+    background-image: linear-gradient(to right, #6ed971 , white);
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+.wish-em-head h1{
+    margin: 15px 0 0 0;
+    color: #ff6e6e;
+}

@@ -1,0 +1,174 @@
+/************* Navigation menu CSS Starts*************************/
+
+.navigaton {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    display: flex;
+    max-width: 1350px;
+    min-width: 972px;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding: 0;
+    position: sticky;
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+    justify-content: space-between;
+
+}
+
+.navbar .left-logo {
+    background-color: #000000;
+    border-radius: 40px 0;
+}
+
+.navbar .left-logo img {
+    width: 180px;
+}
+
+.right {
+    color: #000000;
+    width: auto;
+    margin: 15px 0px 0px 20px;
+    width: 60%;
+}
+
+.right ul {
+    padding: 0%;
+}
+
+.right ul li {
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    display: inline-table;
+    text-transform: capitalize;
+    font-size: 18px;
+    /* margin: 0px 10px 0px 10px; */
+    padding: 10px 10px 10px 10px;
+    /* padding-bottom: 10px; */
+}
+
+.links {
+    left: 0%;
+    bottom: 0%;
+    margin-top: 10px;
+    width: 0%;
+    height: 2px;
+    background-color: #e6c225;
+    transition: 0.5s;
+    transform-origin: left;
+
+}
+
+.right ul li:hover .links {
+    width: 100%;
+}
+
+.drop_down {
+    display: none;
+}
+
+.right ul li:hover .drop_down {
+    display: block;
+    position: absolute;
+    background-color: #41e2a4;
+    left: 0%;
+    top: 105%;
+}
+
+.drop_down ul {
+    display: block;
+}
+
+
+/* SEARCH ******************************************************** */
+
+
+.searchbar {
+    width: 25%;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.search-txt {
+    padding: 10px 0px 10px 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid rgba(163, 163, 163, 0.5);
+}
+
+.txt-search {
+    padding: 15px 0 0 0;
+}
+
+.search-icon {
+    padding: 0px 0px 0px 0px;
+
+    margin: 10px 5px 0px 5px;
+}
+
+.search {
+    width: 100%;
+    transition: 0.1s;
+}
+
+/* ****************************************************************** */
+.options {
+    /* position: absolute; */
+    width: 20%;
+    right: 20px;
+}
+
+.login_button {
+    padding: 10 25;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.option_inner {
+    margin: 15px 0px 0px 0px;
+    display: flex;
+}
+
+.option_padding {
+    padding: 0px 15px 0px 15px;
+}
+
+.text_align {
+    text-align: center;
+}
+
+.small {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/************* Navigation menu CSS Ends*************************/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

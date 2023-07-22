@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-small-img img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+} 
+.product-small-img img:hover{
+    opacity: 1 ;
+}
+.product-small-img{
+    float: left;
+}
+.product{
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid blueviolet;
+}
+.img-container img{
+    height: 500px;
+}
+.img-container{
+    float: right;
+}
+
+.container-main{
+    display: flex;
+    background-color: blueviolet;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+    height: 500px;
+    background-color: brown;
+}

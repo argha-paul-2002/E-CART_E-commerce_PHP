@@ -1,0 +1,505 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1350px;
+    margin: auto;
+}
+._full-outer {
+    margin: 0 auto;
+    max-width: 1366px;
+    /* min-width: 1128px; */
+}
+
+div {
+    display: block;
+}
+
+.fonts-loaded body,
+.fonts-loaded button,
+.fonts-loaded input,
+.fonts-loaded select,
+.fonts-loaded textarea {
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+    letter-spacing: -.2px;
+}
+
+body {
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+}
+
+._full-outer .content {
+    margin: 0 auto;
+    position: relative;
+    padding: 14px 64px 0;
+}
+
+.col,
+.row {
+    width: 100%;
+}
+
+.row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+._full-outer .left-sec-full {
+    width: 25%;
+}
+
+.option-content {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+.option-margin {
+    margin-bottom: 16px;
+}
+
+.padding-lower {
+    padding: 16px;
+    font-size: 12px;
+}
+
+.profile {
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.profile-img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+a,
+img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.pro-info {
+    padding: 5px 0 0 30px;
+    width: calc(100% - 50px);
+}
+
+.pro-info .pro-hello {
+    font-size: 12px;
+}
+
+.pro-info .user-name {
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.option-padding-bottom {
+    padding-bottom: 12px;
+}
+
+.option-padding {
+    padding: 20px 12px 5px 24px;
+}
+
+.icon-images {
+    width: 20px;
+    height: 20px;
+}
+
+.heading-txt {
+    width: calc(100% - 26px);
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+    cursor: pointer;
+}
+
+.arrow-symbol {
+    margin-top: 1px;
+    float: right;
+}
+
+.arrow-symbol-s {
+    width: 14px;
+    height: 14px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.hr-line {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.heading-two {
+    padding: 0 0 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.sub-heading-txt {
+    font-size: 14px;
+    padding: 12px 5px 12px 66px;
+    cursor: pointer;
+}
+
+.sub-heading-txt:hover {
+    color: #6ed971;
+}
+
+.active {
+    color: #6ed971;
+    font-weight: bold;
+}
+
+.tabcontent {
+    transition: 0.2s ease;
+}
+
+/* RIGHT SECTION FULL ****************************************************** */
+.right-sec-full {
+    width: 75%;
+    /* height: 500px; */
+    background-color: #ffffff;
+    padding: 25px 32px;
+}
+
+.right-sec-full input,
+.right-sec-full button {
+    border-radius: 5px;
+}
+
+.right-content {
+    background-color: rgb(255, 255, 255);
+    /* height: 400px; */
+    padding: 10 0 25 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heading-txt-right {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 25px 0 0;
+}
+
+.edit-style {
+    font-size: 15px;
+    color: #6ed971;
+    cursor: pointer;
+    user-select: none;
+}
+
+.personal-info-sec {
+    width: 100%;
+}
+
+.right-heading {
+    padding: 0 0 20px 0;
+}
+
+.name {
+    padding: 0 25px 0 0px;
+}
+
+.name p {
+    padding: 0 0 10px 5px;
+}
+
+.input-style-css {
+    padding: 12px;
+    outline: none;
+    border: 1px solid #878787af;
+}
+
+.submit-btn-style {
+    padding: 10px 35px;
+    background-color: #5f9bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn {
+    padding: 30px 0 0 0;
+    cursor: pointer;
+}
+
+.select-gender {
+    padding: 20px 0 0 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.radio-btns {
+    padding: 12px 15 0 0;
+}
+
+.radio-btns span {
+    padding: 0 10 0 0;
+}
+
+.email-p,
+.phone {
+    padding: 25px 0 0 0;
+}
+
+/*Address Section ********************************************************* */
+.pro-address {
+    width: 100%;
+    /* height: 500px; */
+    background-color: #ffffff;
+    padding: 5px 0 0 30px;
+}
+
+.form-width {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.form-inner-flex {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 0 0 20px 0;
+}
+.input-style-css-add {
+    padding: 12px 50px 12px 10px;
+    outline: none;
+    border: 1px solid #878787af;
+}
+.textarea-style{
+    resize: none;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #878787af;
+}
+.style-option{
+    padding: 10px;
+}
+.form-submit{
+    padding: 12px 100px;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.collapsible-c {
+    background-color: #3dcc59;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.5s ease;
+}
+
+.active-c,
+.collapsible-c:hover {
+    background-color: #17c439;
+}
+
+.collapsible-c:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active-c:after {
+    /*content: "\2212";*/
+    content: '\002B';
+    rotate: 45deg;
+}
+
+.content-c {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #f1f1f1;
+}
+
+/* ****************************************************** */
+.collapsible-s {
+    background-color: #ff6c76;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.active-s,
+.collapsible-s:hover {
+    background-color: #ff535f;
+}
+
+.collapsible-s:after {
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active-s:after {
+    /*content: "\2212";*/
+    /* content: '\002B'; */
+    /* rotate: 45deg; */
+}
+
+.content-s {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: scroll;
+    transition: max-height 0.5s ease-out;
+    background-color: #f1f1f1;
+}
+
+/* ****************************************************** */
+
+.saved-address {
+    /* background-color: red; */
+}
+
+.address-s {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    /* margin: 20px 0px 20px 0px; */
+}
+
+.details {
+    background-color: #ff6c76;
+    width: 60%;
+    padding: 10px 0px 10px 15px;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    transition: 0.5s ease;
+    z-index: 5;
+}
+
+/* /////////////////////////////////////////  ALERT BOX  ////////////////////////////////// */
+
+.alert {
+    padding: 20px;
+    position: absolute;
+    z-index: 200;
+    border-radius: 10px;
+    text-align: center;
+    /* right: 0px; */
+    color: white;
+}
+
+.error {
+    background-color: #f44336;
+}
+
+.warning {
+    background-color: #f1e570;
+}
+
+.success {
+    background-color: #b58efb;
+}
+
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.closebtn:hover {
+    rotate: 90deg;
+}
+
+
+.closebtn:hover {
+    color: black;
+}
+
+/* /////////////////////////////////////////  ALERT BOX  ////////////////////////////////// */

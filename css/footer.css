@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*********************************** Footer Starts*************************************/
+
+/************************************ FIRST SECTION START*************************************/
+.email {
+    width: 70%;
+    padding: 10 2rem 10 10;
+    margin-top: 40;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    font-size: 18;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.send_button {
+    padding: 10;
+}
+
+button {
+    padding: 0 20 16px 20px;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.first_container {
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+}
+
+.left_container {
+    width: 50%;
+    padding: 75 0 0 50
+}
+
+.right_container {
+
+    right: 0px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(114, 114, 114);
+    opacity: 1;
+    /* Firefox */
+}
+
+.footer_text {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/************************************ FIRST SECTION END*************************************/
+
+/************************************ SECOND SECTION START*************************************/
+
+.second_container {
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+}
+
+.socials {
+    width: 100%;
+}
+
+.socials img {
+    padding: 20 15;
+}
+
+.first_sec {
+    width: 32%;
+
+    text-align: center;
+}
+
+.ul_design ul {
+    padding: 0;
+}
+
+.ul_design ul li {
+    padding-top: 20;
+    list-style: none;
+}
+
+.ul_design ul li a {
+    color: #ffffff;
+}
+
+.second_sec,
+.third_sec {
+    width: 25%;
+}
+
+.content_link {
+    text-align: center;
+}
+
+.fourth_sec {
+    padding-top: 20;
+}
+
+/************************************ SECOND SECTION END*************************************/
+
+/*********************************** Footer ENDS*************************************/

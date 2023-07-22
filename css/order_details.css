@@ -1,0 +1,45 @@
+.all-items {
+    /* background-color: aquamarine; */
+    width: 75%;
+    margin: auto;
+}
+
+.items {
+    background-color: #cce6e6;;
+    display: flex;
+    margin: 0 0 15px 0px;
+}
+
+/* ***************************************************************************************************************** */
+.p_img_class {
+    width: 75px;
+    padding: 0px 0px;
+    margin: 10px;
+}
+
+.big-font {
+    font-size: 22px;
+    text-transform:capitalize;
+}
+
+.fade-font {
+    text-transform:capitalize;
+    color: #777777;
+}
+
+.p-details {
+    background-color: #ffbcbc;
+    width: 100%;
+    padding: 10px 0px 10px 15px;
+    border-radius: 25px 119px 4px 145px;
+}
+
+.offer-price {
+    font-weight: bold;
+    color: #388e3c;
+}
+
+.amount-font {
+    font-weight: bold;
+    font-size: 21px;
+}
