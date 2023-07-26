@@ -34,7 +34,7 @@ E-Cart is a comprehensive and feature-rich e-commerce platform designed to provi
 E-Cart is not just an out-of-the-box e-commerce solution; it is highly customizable and can be tailored to suit the specific needs and branding of any online store. Whether you're an aspiring entrepreneur or an established business, E-Cart provides the tools and functionalities required to thrive in the competitive e-commerce landscape.
 
 **Deployment Instructions:**
-1. Clone the repository: `git clone https://github.com/your-username/e-cart.git`
+1. Clone the repository: `git clone https://github.com/your-username/e-cart.git](https://github.com/argha-paul-2002/E-CART_E-commerce_PHP.git)`
 2. Set up the database using MySQL and import the provided SQL file.
 3. Configure the database connection in the PHP files.
 4. Host the project on a web server with PHP support.
